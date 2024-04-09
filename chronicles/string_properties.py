@@ -38,8 +38,8 @@ print ("VALUE: ", new)
 """
 # Summary:
 # ========
-# Immutablility is the property of Strings i.e. you cannot directly substitute a character from the String.
-# For eg.- If you want to change the String "Sam" to "Pam", you cannot simply replace a character from the String.
+# Immutablility is the property of Strings i.e. direct substitution of a character from the String is not allowed.
+# For eg.- To change the String "Sam" to "Pam", it cannot be executed using a simple replacement of a character from the String.
 # name = "Sam"
 # name [0] = 'P'
 # TypeError: 'str' object does not support item assignment

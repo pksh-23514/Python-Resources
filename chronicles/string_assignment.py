@@ -63,7 +63,7 @@ print ("SLICE: ", sub)
 # Reverse Index:   0 -4 -3 -2 -1
 # You can use the "len()" function to check the length of a String.
 
-# Slicing allows you to grab a sub-section of multiple characters i.e. a "slice" of the String.
+# Slicing allows to grab a sub-section of multiple characters i.e. a "slice" of the String.
 # Syntax for Slicing: [start:stop:step]
 # Where: 'start' - numerical index for the slice start. 'stop' - the index the slice will go upto (but not include). 'step' - size of the jump.
 # 'start' is inclusive of that index position but 'stop' is exclusive of that index position (i.e. upto that index but not including that index).

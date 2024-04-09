@@ -31,8 +31,8 @@ print ("DATA: ", future_val)
 """
 # Summary:
 # ========
-# You can check what Type of Object is assigned to a variable using Python's built-in "type()" function.
-# Python uses Dynamic-typing, meaning you can reassign variables to different Data Types. It differs from other languages that are Statically-typed.
+# The Type of Object assigned to a variable can be checked using Python's built-in "type()" function.
+# Python uses Dynamic-typing, meaning the variable can be reassigned to a different Data Type. It differs from other languages that are Statically-typed.
 
 # Briefly, the Data Types are:
 # 1. Integers (int)         => Whole Numbers such as 300 etc.

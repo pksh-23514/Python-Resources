@@ -82,4 +82,4 @@ my_func ('How', 'are', 'You', first="Where", mid="are", last="You")
 # Note: *args receives arguments as a tuple and **kwargs receives arguments as a dictionary.
 
 # If both the "*args" and "**kwargs" are used in the function definition, the order in which they are passed shall be same as written in the definition.
-# If you jumble the positions of "*args" or "**kwargs" while passing them to the function, it throws a "SyntaxError" error.
+# If the positions of "*args" or "**kwargs" are jumbled while passing them to the function, it throws a "SyntaxError" error.
