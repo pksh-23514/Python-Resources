@@ -1,0 +1,6 @@
+This is a newly created File.
+It is to test the write() method in Write mode of Python.
+See you soon!
+Hello World! Opened an existing File.
+It is to test the writelines() method.
+Over and Out.

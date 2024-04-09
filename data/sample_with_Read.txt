@@ -1,0 +1,3 @@
+This is a Sample Text file.
+It is used to understand the 'with' statment in Python.
+Enjoy!

@@ -1,0 +1,4 @@
+Hello World!
+This is an existing File.
+It is to test the write() method in Append mode of Python.
+See you soon!
