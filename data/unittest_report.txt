@@ -1,0 +1,50 @@
+=======================================
+Without the "-v" option in the Command:
+=======================================
+
+F.
+======================================================================
+FAIL: test_multiple_word (unit_testing.TestCap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/prabhat_kiran/Documents/Learnings/Python_Resources/chronicles/unit_testing.py", line 27, in test_multiple_word
+    self.assertEqual (result, "Hello World")
+AssertionError: 'Hello world' != 'Hello World'
+- Hello world
+?       ^
++ Hello World
+?       ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=1)
+
+
+
+
+====================================
+With the "-v" option in the Command:
+====================================
+
+test_multiple_word (unit_testing.TestCap) ... FAIL
+test_one_word (unit_testing.TestCap) ... ok
+
+======================================================================
+FAIL: test_multiple_word (unit_testing.TestCap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/prabhat_kiran/Documents/Learnings/Python_Resources/chronicles/unit_testing.py", line 27, in test_multiple_word
+    self.assertEqual (result, "Hello World")
+AssertionError: 'Hello world' != 'Hello World'
+- Hello world
+?       ^
++ Hello World
+?       ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+FAILED (failures=1)

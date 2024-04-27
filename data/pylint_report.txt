@@ -1,0 +1,24 @@
+************* Module unit_testing
+unit_testing.py:15:0: C0301: Line too long (112/100) (line-too-long)
+unit_testing.py:17:0: C0301: Line too long (124/100) (line-too-long)
+unit_testing.py:19:0: C0301: Line too long (116/100) (line-too-long)
+unit_testing.py:25:0: C0301: Line too long (134/100) (line-too-long)
+unit_testing.py:30:0: C0301: Line too long (122/100) (line-too-long)
+unit_testing.py:33:0: C0301: Line too long (117/100) (line-too-long)
+unit_testing.py:34:0: C0301: Line too long (146/100) (line-too-long)
+unit_testing.py:35:0: C0301: Line too long (124/100) (line-too-long)
+unit_testing.py:37:0: C0301: Line too long (122/100) (line-too-long)
+unit_testing.py:41:0: C0301: Line too long (101/100) (line-too-long)
+unit_testing.py:44:0: C0301: Line too long (122/100) (line-too-long)
+unit_testing.py:45:0: C0301: Line too long (103/100) (line-too-long)
+unit_testing.py:46:0: C0301: Line too long (133/100) (line-too-long)
+unit_testing.py:49:0: C0301: Line too long (125/100) (line-too-long)
+unit_testing.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+unit_testing.py:1:0: C0103: Constant name "a" doesn't conform to UPPER_CASE naming style (invalid-name)
+unit_testing.py:2:0: C0103: Constant name "b" doesn't conform to UPPER_CASE naming style (invalid-name)
+unit_testing.py:4:7: E0602: Undefined variable 'B' (undefined-variable)
+unit_testing.py:9:0: W0105: String statement has no effect (pointless-string-statement)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
