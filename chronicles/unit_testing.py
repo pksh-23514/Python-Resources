@@ -2,8 +2,9 @@
 a = 1
 b = 2
 print (a)
-print (b)
+print (B)
 print ("")
+# Comment the above code to run the below test code.
 
 import sys
 # Include the path for importing the Module to be validated.
