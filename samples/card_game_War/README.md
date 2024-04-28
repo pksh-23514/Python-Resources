@@ -1,6 +1,4 @@
-************************
-	WAR GAME:	
-************************
+# WAR GAME:	
 
 1. Two Players will start off with half the Deck of Cards.
 2. Each Player will draw out a Card and compare the value of the Card.
