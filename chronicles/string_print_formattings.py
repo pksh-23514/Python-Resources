@@ -21,6 +21,23 @@ print (f"{str1} {str2} {str3}")
 newline = '\n'
 print (f"newline: {newline}")
 
+print (f"Hello World!")
+print (f"Python is fun.")
+print (f"Hello World!", end='')
+print (f"Python is fun.")
+print (f"Hello World!", end=' ')
+print (f"Python is fun.")
+print (f"Hello World!", end='\t')
+print (f"Python is fun.")
+print (f"Hello World", end='! ')
+print (f"Python is fun.")
+print (f"Hello World", end='! How are you doing? ')
+print (f"Python is fun.")
+
+print ('Name', 'Age', 'Occupation', sep=', ')
+print ('Name', 'Age', 'Occupation', sep='\t')
+print ('Name', 'Age', 'Occupation', sep=':\n', end=':\n')
+
 """
 **************************************************************
 **************************************************************
@@ -70,5 +87,9 @@ print (f"newline: {newline}")
 # It throws an error: SyntaxError: f-string expression part cannot include a backslash
 # The workaround is to put the backslash into a variable.
 
-# To suppress a newline, 
-# https://ioflood.com/blog/python-print-without-newline/
+# To suppress a newline from the "print()" function, the 'end' parameter is used.
+# The 'end' parameter can be used to introduce any custom character/String in the "print()" function.
+# A common error is forgetting that the end parameter alters the ending character for that specific "print()" call only.
+# If the requirement is to change the ending for all the "print()" calls, it has to specified in each call individually.
+
+# The 'sep' parameter is used to define the character that has to be used to separate the printed arguments.
