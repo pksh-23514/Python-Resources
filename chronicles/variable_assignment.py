@@ -55,3 +55,14 @@ print ("DATA: ", future_val)
 
 # The keyword "None" can be used as a Placeholder for any variable whose value is not determined at the time of initialization.
 # However, it will be used later in the code and using the "None" keyword will avoid any "NameError:" error generation for the variable.
+
+# Floating point numbers are represented in the Computer Hardware as Base-2 (binary).
+# Unfortunately, most of the decimal fractions cannot be represented exactly as binary fractions.
+# Generally, the decimal floating-point numbers entered are only approximated by the binary floating-point numbers actually stored in the machine.
+# For eg.- Consider the decimal fraction 1/3. It can be approximated in Base-10 as: 0.33333333... but it will never be exactly 1/3.
+# Similarly, no matter how many Base-2 digits are used; the binary fraction can never exactly match the represented number.
+# For eg.- Consider the decimal fraction 0.1. It can be approximated in Base-2 as: 0.0001100110011001100110011001100110011001100110011... but never matches 0.1.
+# This is called the Representation error. This is the chief reason why Python won't often display the exact decimal number as expected in an expression.
+# For eg.- 0.1+0.2 => 0.30000000000000004
+# The IEEE-754 floating point arithmetic standard is used to represent the floating point numbers.
+# It decides the floating point accuracy and machine's abilities to represent numbers in memory.
