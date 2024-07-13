@@ -9,6 +9,8 @@ res = 100/7
 print ("RESULT: {r}".format (r=res))
 print ("RESULT: {r:1.3f}".format (r=res))
 print ("RESULT: {r:10.3f}".format (r=res))
+print ("RESULT: {r:6.3f}".format (r=res))
+print ("RESULT: {r:7.3f}".format (r=res))
 
 val = 'INSERTED'
 print (f'This is a String {val}.')
@@ -80,6 +82,7 @@ print ('Name', 'Age', 'Occupation', sep=':\n', end=':\n')
 # The Float formatting allows to set the Precision and Width for the Decimal value.
 # Syntax for Float formatting: "{<value>:<width>.<precision>f}"
 # Where: 'value' is the value. 'width' is the total number of positions in which the value shall be written. 'precision' is the number of Decimal points.
+# The 'width' value will not have any effect on the "print()" if the total number of characters to be printed are less than the 'width' value.
 
 # The "f-strings" is a relatively new feature added in Python 3.6 version. This formatting mechanism is known as Literal String Interpolation.
 # To create an f-string, prefix the String with the letter "f".
