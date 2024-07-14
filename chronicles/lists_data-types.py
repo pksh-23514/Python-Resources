@@ -45,8 +45,9 @@ print ("TYPE: ", list_type)
 
 my_list = [1, 2, 3]
 print ("DATA: ", my_list)
-my_list.reverse ()
+list_type = type (my_list.reverse ())
 print ("DATA: ", my_list)
+print ("TYPE: ", list_type)
 
 """
 **************************************************************
@@ -78,4 +79,4 @@ print ("DATA: ", my_list)
 # The sorting criteria shall be a function that returns a value based on which the sorting is done.
 # The "sort()" method is an In-place method which will sort the List in-place without returning a new List after sorting.
 
-# The "reverse()" method can be used to reverse the List.
+# The "reverse()" method can be used to reverse the List. It is also an In-Place method which doesn't return a new List after reversing.
