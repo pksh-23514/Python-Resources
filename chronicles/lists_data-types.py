@@ -18,15 +18,18 @@ print ("DATA: ", my_list)
 
 my_list = [1, 2, 3]
 print ("DATA: ", my_list)
-my_list.append (4)
+list_type = type (my_list.append (4))
 print ("DATA: ", my_list)
+print ("TYPE: ", list_type)
 out = my_list.pop ()
 print ("DATA: ", my_list)
 print ("VALUE: ", out)
-my_list.insert (3, 4)
+list_type = type (my_list.insert (3, 4))
 print ("DATA: ", my_list)
-my_list.insert (3, 4)
+print ("TYPE: ", list_type)
+list_type = type (my_list.insert (3, 4))
 print ("DATA: ", my_list)
+print ("TYPE: ", list_type)
 out = my_list.remove (4)
 print ("DATA: ", my_list)
 print ("VALUE: ", out)
@@ -70,8 +73,8 @@ print ("TYPE: ", list_type)
 
 # The '+' operator can be used to Concatenate the Lists.
 
-# The "append()" method can be used to add a new element to the end of the List.
-# The "insert()" method can be used to add a new element to the particular index of the List.
+# The "append()" method can be used to add a new element to the end of the List. It is an In-Place method which doesn't return a new List after appending.
+# The "insert()" method can be used to add a new element to the particular index of the List. It is an In-Place method which doesn't return a new List after inserting.
 # The "pop()' method can be used to pop out an element from any index of the List and returns the popped value. The default index is the end of the List.
 # The "remove()" method can be used to delete the first occurence of the element in the List. It does not returns the removed value.
 
