@@ -16,6 +16,13 @@ my_list = ['STRING', 100, 23.5, True]
 my_list [1] = 14
 print ("DATA: ", my_list)
 
+my_list = [1, 2, 3, [4, 5, 6]]
+print ("VALUE: ", my_list [0])
+print ("VALUE: ", my_list [2])
+print ("VALUE: ", my_list [3])
+print ("VALUE: ", my_list [3][0])
+print ("VALUE: ", my_list [3][2])
+
 my_list = [1, 2, 3]
 print ("DATA: ", my_list)
 list_type = type (my_list.append (4))
@@ -62,7 +69,7 @@ print ("TYPE: ", list_type)
 # It uses '[]' brackets and ',' commas to separate the Objects present in the List.
 # They support indexing and slicing. They can also be nested and have a variety of methods that can be called off of them.
 # They allow duplicate values to be stored inside them.
-# Most of the methods are 'in-place' methods i.e. they operate on the input List itself without creating another List or returning a new modified List.
+# Most of the methods are 'In-Place' methods i.e. they operate on the input List itself without creating another List or returning a new modified List.
 # The "list()" function can be used to create a new List.
 # The "len()" function can be used to find the Length of the List.
 
