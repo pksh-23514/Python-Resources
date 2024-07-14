@@ -89,4 +89,4 @@ print ("TYPE: ", list_type)
 # The sorting criteria shall be a function that returns a value based on which the sorting is done.
 # The "sort()" method is an In-place method which will sort the List in-place without returning a new List after sorting.
 
-# The "reverse()" method can be used to reverse the List. It is also an In-Place method which doesn't return a new List after reversing.
+# The "reverse()" method can be used to reverse the List. It is an In-Place method which doesn't return a new List after reversing.
