@@ -33,12 +33,15 @@ print ("VALUE: ", out)
 
 my_list = ['Ford', 'Mitsubishi', 'BMW', 'VW']
 print ("DATA: ", my_list)
-my_list.sort ()
+list_type = type (my_list.sort ())
 print ("DATA: ", my_list)
-my_list.sort (reverse=True)
+print ("TYPE: ", list_type)
+list_type = type (my_list.sort (reverse=True))
 print ("DATA: ", my_list)
-my_list.sort (key=len)
+print ("TYPE: ", list_type)
+list_type = type (my_list.sort (key=len))
 print ("DATA: ", my_list)
+print ("TYPE: ", list_type)
 
 my_list = [1, 2, 3]
 print ("DATA: ", my_list)
@@ -73,5 +76,6 @@ print ("DATA: ", my_list)
 
 # The "sort()" method can be used to sort the List based on the type of ordering and the sorting criteria. The default order is Ascending and it doesn't return any value.
 # The sorting criteria shall be a function that returns a value based on which the sorting is done.
+# The "sort()" method is an In-place method which will sort the List in-place without returning a new List after sorting.
 
 # The "reverse()" method can be used to reverse the List.
