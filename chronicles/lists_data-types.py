@@ -27,10 +27,11 @@ my_str = "ABCDE"
 my_tuple = ('A', 'B', 'C', 'D', 'E')
 my_set = {'A', 'B', 'C', 'D', 'E'}
 my_dict = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
-print ("STRING TO LIST     : ", list (my_str))
-print ("TUPLE TO LIST      : ", list (my_tuple))
-print ("SET TO LIST        : ", list (my_set))
-print ("DICTIONARY TO LIST : ", list (my_dict))
+print ("STRING TO LIST           : ", list (my_str))
+print ("TUPLE TO LIST            : ", list (my_tuple))
+print ("SET TO LIST              : ", list (my_set))
+print ("DICTIONARY TO LIST       : ", list (my_dict))
+print ("DICTIONARY ITEMS TO LIST : ", list (my_dict.items ()))
 
 my_list = [1, 2, 3]
 print ("DATA: ", my_list)
