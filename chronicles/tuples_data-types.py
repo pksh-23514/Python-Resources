@@ -58,7 +58,8 @@ print (last)
 
 # The "tuple()" function can be used to create a new Tuple.
 # Syntax: tuple (iterable)
-# Where: iterable - Object that can be a 
+# Where: iterable - Object that can be a sequence (string/tuples) or collection (sets/dictionary) or any iterator.
+# If no parameter is passed, the function will return a Tuple with 0 elements.
 
 # Indexing of the Tuples starts with the index '0'. Negative indexing is allowed for the Tuples.
 
