@@ -5,6 +5,16 @@ print ("VALUE: ", my_tuples [-1])
 print ("LIST: ", my_tuples [1:])
 print ("LENGTH: ", len (my_tuples))
 
+my_str = "ABCDE"
+my_tuple = ('A', 'B', 'C', 'D', 'E')
+my_set = {'A', 'B', 'C', 'D', 'E'}
+my_dict = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
+print ("STRING TO TUPLE           : ", tuple (my_str))
+print ("TUPLE TO TUPLE            : ", tuple (my_tuple))
+print ("SET TO TUPLE              : ", tuple (my_set))
+print ("DICTIONARY TO TUPLE       : ", tuple (my_dict))
+print ("DICTIONARY ITEMS TO TUPLE : ", tuple (my_dict.items ()))
+
 my_tuples = (1, 2, 3, 1)
 print ("COUNT: ", my_tuples.count (1))
 print ("INDEX: ", my_tuples.index (1))
@@ -44,8 +54,11 @@ print (last)
 # Tuples use '()' paranthesis and ',' commas to separate the Objects present in the Tuples. They can hold a variety of Object types.
 # They are ordered sequence and allow duplicate values inside them.
 # They are used to implement Data Integrity while passing the Objects in the program.
-# The "tuple()" function can be used to create a new Tuple.
 # The "len()" function can be used to find the Length of the Tuples.
+
+# The "tuple()" function can be used to create a new Tuple.
+# Syntax: tuple (iterable)
+# Where: iterable - Object that can be a 
 
 # Indexing of the Tuples starts with the index '0'. Negative indexing is allowed for the Tuples.
 
