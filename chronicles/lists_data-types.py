@@ -23,6 +23,15 @@ print ("VALUE: ", my_list [3])
 print ("VALUE: ", my_list [3][0])
 print ("VALUE: ", my_list [3][2])
 
+my_str = "ABCDE"
+my_tuple = ('A', 'B', 'C', 'D', 'E')
+my_sets = {'A', 'B', 'C', 'D', 'E'}
+my_dict = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
+print ("STRING TO LIST     : ", list (my_str))
+print ("TUPLES TO LIST     : ", list (my_tuple))
+print ("SETS TO LIST       : ", list (my_sets))
+print ("DICTIONARY TO LIST : ", list (my_dict))
+
 my_list = [1, 2, 3]
 print ("DATA: ", my_list)
 list_type = type (my_list.append (4))
@@ -70,8 +79,12 @@ print ("TYPE: ", list_type)
 # They support indexing and slicing. They can also be nested and have a variety of methods that can be called off of them.
 # They allow duplicate values to be stored inside them.
 # Most of the methods are 'In-Place' methods i.e. they operate on the input List itself without creating another List or returning a new modified List.
-# The "list()" function can be used to create a new List.
 # The "len()" function can be used to find the Length of the List.
+
+# The "list()" function can be used to create a new List.
+# Syntax: list (iterable)
+# Where: iterable - Object that can be a sequence (string/tuples) or collection (sets/dictionary) or any iterator.
+# If no parameter is passed, the function will return a List with 0 elements.
 
 # Indexing of the List starts with the index '0'. Negative indexing is allowed for the List.
 # Lists can be mutated by assigning a new value to any index position of the List.
