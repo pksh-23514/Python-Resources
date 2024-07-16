@@ -25,11 +25,11 @@ print ("VALUE: ", my_list [3][2])
 
 my_str = "ABCDE"
 my_tuple = ('A', 'B', 'C', 'D', 'E')
-my_sets = {'A', 'B', 'C', 'D', 'E'}
+my_set = {'A', 'B', 'C', 'D', 'E'}
 my_dict = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
 print ("STRING TO LIST     : ", list (my_str))
-print ("TUPLES TO LIST     : ", list (my_tuple))
-print ("SETS TO LIST       : ", list (my_sets))
+print ("TUPLE TO LIST      : ", list (my_tuple))
+print ("SET TO LIST        : ", list (my_set))
 print ("DICTIONARY TO LIST : ", list (my_dict))
 
 my_list = [1, 2, 3]
