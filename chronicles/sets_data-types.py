@@ -28,6 +28,9 @@ my_set.add (True)
 print ("DATA: ", my_set)
 print ("LENGTH: ", len (my_set))
 
+my_set = set (input ("Please Enter the Set Elements: "))
+print (my_set)
+
 """
 **************************************************************
 **************************************************************
