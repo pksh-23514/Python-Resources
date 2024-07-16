@@ -68,6 +68,9 @@ list_type = type (my_list.reverse ())
 print ("DATA: ", my_list)
 print ("TYPE: ", list_type)
 
+my_list = list (input ("Please Enter the List Elements: "))
+print ("VALUE: ", my_list)
+
 """
 **************************************************************
 **************************************************************
