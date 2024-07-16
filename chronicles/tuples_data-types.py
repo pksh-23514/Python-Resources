@@ -44,6 +44,9 @@ print (first)
 print (middle)
 print (last)
 
+my_tuples = tuple (input ("Please Enter the Tuple Elements: "))
+print (my_tuples)
+
 """
 **************************************************************
 **************************************************************
