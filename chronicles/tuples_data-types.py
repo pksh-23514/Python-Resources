@@ -6,11 +6,11 @@ print ("LIST: ", my_tuples [1:])
 print ("LENGTH: ", len (my_tuples))
 
 my_str = "ABCDE"
-my_tuple = ('A', 'B', 'C', 'D', 'E')
+my_list = ['A', 'B', 'C', 'D', 'E']
 my_set = {'A', 'B', 'C', 'D', 'E'}
 my_dict = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5}
 print ("STRING TO TUPLE           : ", tuple (my_str))
-print ("TUPLE TO TUPLE            : ", tuple (my_tuple))
+print ("LIST TO TUPLE             : ", tuple (my_list))
 print ("SET TO TUPLE              : ", tuple (my_set))
 print ("DICTIONARY TO TUPLE       : ", tuple (my_dict))
 print ("DICTIONARY ITEMS TO TUPLE : ", tuple (my_dict.items ()))
