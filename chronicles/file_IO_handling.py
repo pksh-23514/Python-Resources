@@ -92,7 +92,7 @@ fp.close ()
 # There is a cursor which points to the beginning of the file when it is opened. It defines where the data has to be read or written in the file.
 # There are 6 modes of opening a file:
 # "r" - Read - Default value. Opens a file for Reading and generates an error if the file does not exist. The cursor position is at the begin.
-# "r+" - Read and Write - Opens a file for Reading and Writing and generates an errot if the file does not exist. The cursor position is at the begin.
+# "r+" - Read and Write - Opens a file for Reading and Writing and generates an error if the file does not exist. The cursor position is at the begin.
 # "a" - Append - Opens a file for Appending and Creates the file if it does not exist. The cursor position is at the end. It doesn't overwrite the data.
 # "a+" - Append and Read - Opens a file for Reading and Writing and Creates the file if it does not exist. The cursor position is at the end. It doesn't overwrite the data.
 # "w" - Write - Opens a file for Writing and Creates the file if it does not exist. The cursor position is at the begin. It overwrites the data.
