@@ -12,7 +12,6 @@ print ("VALUE: ", bool (23))
 print ("VALUE: ", bool (0))
 print ("VALUE: ", bool (["apple", "cherry", "banana"]))
 print ("VALUE: ", bool ([]))
-
 print ("VALUE: ", bool (False))
 print ("VALUE: ", bool (None))
 print ("VALUE: ", bool (()))
