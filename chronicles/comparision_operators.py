@@ -58,6 +58,8 @@ print (3 < 3.0)
 # Value (1) is equal to (True) and (0) is equal to (False).
 # Comparision between the Dictionary type is not allowed.
 # Eg.- {1 : 'one', 2 : 'two'} < {1 : 'three', 2 : 'four'} => TypeError: ‘<‘ not supported between instances of ‘dict’ and ‘dict’
+# Comparision between the Sets type can have the same elements but at different indices as it is an Unordered sequence.
+# Eg.- print ({1, 2, 3} == {1, 3, 2}) => True
 
 # Comparision without the placeholders is like individual comparision and not Container comparision.
 # Eg.- 3, 4, 5 > 3, 4, 5.0 => (3, 4, True, 4, 5.0)
