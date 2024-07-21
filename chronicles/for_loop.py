@@ -34,7 +34,6 @@ print ("")
 my_sum = 0
 for num in my_list:
     my_sum = my_sum + num
-
     print (f"Current: {my_sum}")
 print (f"Sum: {my_sum}\n")
 
