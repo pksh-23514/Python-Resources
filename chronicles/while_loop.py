@@ -16,14 +16,11 @@ count = 0
 while (count < 5):
     print (f"Value: {count}")
     count += 1
-
     if (count > 2):
         print ("The loop is broken!")
         break
 else:
     print ("count is greater than 5!")
-print ("")
-
 
 """
 **************************************************************
@@ -41,7 +38,7 @@ print ("")
 # The 'else' statement in 'while' loop can be executed only after the condition becomes FALSE.
 # If the loop is broken or if an Exception is raised, the Else statements will not be executed.
 # The 'while-else' loop Syntax is:
-# ===========================
+# ================================
 # while condition:
     # statements to be executed repeatedly.
 # else:
