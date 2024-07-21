@@ -53,6 +53,12 @@ my_dict = {'k1' : "23", 'k2' : "14", 'k3' : "05"}
 print (my_dict.items ())
 for (key, values) in my_dict.items ():
     print (values)
+print ("")
+
+for i in range (0, 5, 1):
+    for j in range (0, (i + 1), 1):
+        print ("*", end='')
+    print ("")
 
 """
 **************************************************************
@@ -80,3 +86,12 @@ for (key, values) in my_dict.items ():
 # The Tuple of Tuples or List of Tuples can be iterated using a 'for' loop by utilizing the feature of Tuples Unpacking.
 # This method is also useful in case of iterating through the Dictionaries by utilizing the "items()" method.
 # The "items()" method returns a key-value pair in form of Tuples in a List.
+
+# Nested 'for' loops means 'for' loops under 'for' loops.
+# The Nested 'for' loop Syntax is:
+# ================================
+# for iterator_var in sequence/iterable:
+    # for iterator_var in sequence/iterable:
+        # statements to be executed inside the Inner loop
+    # statements to be executed inside the Outer loop
+# statements outside of the Nested loop as the indentation has been removed.
