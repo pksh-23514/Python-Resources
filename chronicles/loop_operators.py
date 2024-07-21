@@ -120,7 +120,6 @@ print ("Unzipping...")
 print ("Names: ", name)
 print ("Ages: ", age)
 print ("Emp. No.: ", emp_no)
-print ("")
 
 """
 **************************************************************
