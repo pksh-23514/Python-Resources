@@ -58,6 +58,12 @@ for i in range (0, 5, 1):
     for j in range (0, (i + 1), 1):
         print ("*", end='')
     print ("")
+print ("")
+
+for i in range (1, 6, 1):
+    print (i)
+else:
+    print ("count is greater than 5!")
 
 """
 **************************************************************
@@ -69,8 +75,8 @@ for i in range (0, 5, 1):
 # The 'for' loop Syntax is:
 # =========================
 # for iterator_var in sequence/iterable:
-    # statements to be executed repeatedly.
-# statements outside of the for-loop as the indentation has been removed.
+    # statements to be executed repeatedly
+# statements outside of the for-loop as the indentation has been removed
 
 # The 'iterable' means the Object can be iterated over. It is used for iterating over an iterable like Strings, Tuples, Lists, Sets or Dictionaries.
 # The loop assigns each item in the List to the iterator variable and continues till all the items in the List have been processed.
@@ -93,4 +99,13 @@ for i in range (0, 5, 1):
     # for iterator_var in sequence/iterable:
         # statements to be executed inside the Inner loop
     # statements to be executed inside the Outer loop
-# statements outside of the Nested loop as the indentation has been removed.
+# statements outside of the Nested loop as the indentation has been removed
+
+# The 'else' statement in 'for' loop can be executed only after the condition becomes FALSE.
+# If the loop is broken or if an Exception is raised, the Else statements will not be executed.
+# The 'for-else' loop Syntax is:
+# ==============================
+# for iterator_var in sequence/iterable:
+    # statements to be executed repeatedly
+# else:
+    # statements to be executed after the loop is terminated naturally.
