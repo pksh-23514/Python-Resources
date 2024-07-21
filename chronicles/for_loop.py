@@ -72,7 +72,7 @@ for (key, values) in my_dict.items ():
 # The loop assigns each key of the Dictionary to the iterator variable and continues till all the Keys in the Dictionary have been processed.
 # The loop assigns each character of the String to the iterator variable and continues till all the characters in the String have been processed.
 # The loop assigns each item in the Tuple to the iterator variable and continues till all the iterms in the Tuple have been processed.
-# The loop assigns each item in the Set to the iterator varibale and continues till all the items in the Set have been processed.
+# The loop assigns each item in the Set to the iterator variable and continues till all the items in the Set have been processed.
 
 # If iteratation occurs without utilizing the iterator variable, the '_' underscore can be used instead of a variable name.
 # A single '_' underscore is a conventional way to indicate unused variables when the loop variable is not getting utilized anywhere.
