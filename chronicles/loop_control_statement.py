@@ -15,6 +15,32 @@ print ("\n")
 for char in 'Python':
     pass
 print ("Letter: ", char)
+print ("")
+
+i = 0
+while (i < 5):
+    if (i == 2):
+        break
+    print (i, end=' ')
+    i += 1
+print ("\n")
+
+i = 0
+string = 'GeeksforGeeks'
+while (i < len (string)):
+    if ((string [i] == 'e') or (string [i] == 's')):
+        i += 1
+        continue
+    print (string [i], end=' ')
+    i += 1
+print ("\n")
+
+i = 0
+string = 'GeeksforGeeks'
+while (i < len (string)):
+    i += 1
+    pass
+print (f"i is {i}")
 
 """
 **************************************************************
