@@ -52,7 +52,7 @@ print (my_tuple)
 # ========
 # The List Comprehensions can be used as a short form syntax to create a new List based on an existing List.
 # It uses '[]' brackets containing the expression to be executed for the selected elements and For loop to iterate the List.
-# Syntax: new_List = [expression(element) for element in old_List if condition]
+# Syntax: new_List = [expression(element) for element in iterable if condition]
 # Where: 'expression' is the operation to be executed. 'element' is the value taken from the iterable. 'condition' is filter to choose the element to be passed.
 
 # If there is a loop along with ".append()" to create a List based on a condition, they can be replaced with the List Comprehension.
