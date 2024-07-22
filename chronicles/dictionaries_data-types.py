@@ -33,6 +33,10 @@ out = my_dict.pop ('year', 2024)
 print ("DATA: ", my_dict)
 print ("VALUES: ", out)
 
+my_dict = {1.1 : "Hi", 2.3 : "Hello", 5 : "How are you?"}
+for item in my_dict.items():
+    print (item)
+
 """
 **************************************************************
 **************************************************************
@@ -43,7 +47,8 @@ print ("VALUES: ", out)
 # It uses '{}' brackets and ',' commas to separate the Objects present in the Dictionary. It uses ':' colon to separate the Key and Value pair.
 # The key-value pair can be used to quickly grab objects without needing to know the index position of the value.
 # Syntax: {'key1':'value1', 'key2':'value2'}
-# The Key value is always a String. The values can be of any other Data Type.
+# The key can be any immutable Object (integer, float, character, Strings etc.).
+# The values can be of any Data Type.
 # The "dict()" function can be used to create a new Dictionary.
 # The "len()" function can be used to find the number of key-value pairs present in the Dictionaries.
 # The Nested Dictionaries can be accessed using multiple Key values.
