@@ -57,6 +57,31 @@ for (index, letter) in enumerate (my_str):
     print (f"Index: {index} => Letter: {letter}")
 print ("")
 
+my_list = ["Naruto", "Pokemon", "Demon Slayer", "Jujutsu Kaisen"]
+for item in enumerate (my_list):
+    print (item)
+print ("")
+
+my_tuple = ("Naruto", "Pokemon", "Demon Slayer", "Jujutsu Kaisen")
+for item in enumerate (my_tuple):
+    print (item)
+print ("")
+
+my_set = {"Naruto", "Pokemon", "Demon Slayer", "Jujutsu Kaisen"}
+for item in enumerate (my_set):
+    print (item)
+print ("")
+
+my_dict = {1 : "Naruto", 2 : "Pokemon", 3 : "Demon Slayer", 4 : "Jujutsu Kaisen"}
+for item in enumerate (my_dict):
+    print (item)
+print ("")
+
+my_dict = {1 : "Naruto", 2 : "Pokemon", 3 : "Demon Slayer", 4 : "Jujutsu Kaisen"}
+for item in enumerate (my_dict.items ()):
+    print (item)
+print ("")
+
 """
 **************************************************************
 **************************************************************
