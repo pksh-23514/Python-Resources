@@ -292,7 +292,7 @@ del obj
 #             Body
 #         class <Derived_Class> (Base_Class):
 #             Body
-# It provides the reusability of a code. Also, it allows us to add more features to a Class without modifying it.
+# It provides the reusability of a code. Also, it allows to add more features to a Class without modifying it.
 # It is transitive in nature, which means that if Class B inherits from Class A, then all the sub-Classes of B would automatically inherit from Class A.
 # The methods of the Base Class are accessible to the Derived Class. The other methods defined in the Derived Class are only native to it.
 # If the "__init__()" of the Base Class is not called, the instance variables defined there will not be available to the Derived Class.
@@ -310,7 +310,7 @@ del obj
 
 # Polymorphism means the same function name (but different function signatures) being used for different types.
 # The key difference is the Data-types of arguments and number of arguments used in the function.
-# It lets us define the methods in the Child Class that have the same name as the methods in the Parent Class.
+# It allows to define the methods in the Child Class that have the same name as the methods in the Parent Class.
 # The Child Class inherits the methods from the Parent Class that can be modified if the method inherited doesn't fit with the Child Class.
 # This process of re-implementing a method in the Child Class is called Method Overriding.
 

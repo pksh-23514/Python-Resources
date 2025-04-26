@@ -54,8 +54,8 @@ print ("SLICE: ", sub)
 """
 # Summary:
 # ========
-# Where the Single quote appears as a part of the string, we use Double quotes to initialize the string.
-# Strings are an ordered sequence, which means Python can use index to call parts of the sequence. In Python, we use brackets [] after an object to call its Index.
+# Where the Single quote appears as a part of the string, the Double quotes are used to initialize the string.
+# Strings are an ordered sequence, which means Python can use index to call parts of the sequence. In Python, the brackets [] are used after an object to call its Index.
 # We should also note that indexing starts at "0" for Python.
 # Negative indexing is also allowed in Python and "-1" is the index for the last character.
 # Character:       H  e  l  l  o

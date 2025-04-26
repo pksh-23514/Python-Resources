@@ -17,16 +17,16 @@ print (my_module.my_list)
 # Summary:
 # ========
 # A Python Package is a collection/folder of Python Modules that work together to provide certain functionality.
-# Packages are a way to organize and structure your Python code into reusable components.
+# Packages are a way to organize and structure the Python code into reusable components.
 # They keep the code organized, make it easier to manage and maintain and allow code sharing.
 # To create a Package, the following steps have to be followed:
-# 1. Create a directory to serve as the root of your Package structure.
+# 1. Create a directory to serve as the root of the Package structure.
 # 2. Within the directory, write various Python files (Modules) containing the code. Each Module shall represent a distinct functionality or component of the Package.
 # 3. Include an '__init__.py' file in the directory. It can be empty or can contain initialization code for the Package.
 # Note: The '__init__.py' file signals the interpreter to treat the directory as a Package.
 # 4. Include the sub-Packages within the Package by adding additional directories containing Modules and their own '__init__.py' file.
 # Note: Don't name the sub-Packages having a '-' minus character in the name as it generates a SyntaxError. Eg.- sub-package_1
-# 5. To use the Modules of a Package, import them in your program using the '.' dot notation.
+# 5. To use the Modules of a Package, import them in the program using the '.' dot notation.
 # 6. To distribute the package for others to use, create a 'setup.py' file using Python’s setuptools library.
 # Note: The 'setup.py' file defines the metadata about the Package and specifies how it should be installed.
 

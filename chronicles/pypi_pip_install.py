@@ -20,6 +20,6 @@
 # 1. In the Google, search for the "Python packages for Excel".
 # 2. The top results will show the list of packages available.
 # 3. There shall be a Documentation link for the particular package which explains about the complete package.
-# 4. There shall be a Download link which will take you to the official "Python Software Foundation" page for the package.
-# 5. In your system, on the Command Line: pip install openopyxl
-# 6. The package is installed and ready to be imported in your program.
+# 4. There shall be a Download link that will take to the official "Python Software Foundation" page for the package.
+# 5. In the system, on the Command Line: pip install openopyxl
+# 6. The package is installed and ready to be imported in the program.

@@ -110,11 +110,11 @@ check_guess (my_list, guess)
 # Creating a function requires a very specific syntax, including the 'def' keyword, correct indentation and proper structure.
 # The name of the function is all lowercases with underscores between words (Snake casing).
 # Everything indented is considered to be inside of the function.
-# The 'return' keyword can be used to send back the result of the function. It allows us to assign the output of the function to a variable.
+# The 'return' keyword can be used to send back the result of the function. It allows to assign the output of the function to a variable.
 # They are used to create clean repeatable code for efficient programming.
 
 # The number of parameters in the function call shall be equal to that in the function definition. Otherwise, it throws a "TypeError" error.
-# To avoid this error, we can define the variable with a default value in the function definition.
+# To avoid this error, the variable is defined with a default value in the function definition.
 # The Data-type of the parameters are not defined initially while defining. However, this feature can result into bugs that can be hard to find.
 
 # Returning a Tuple from a function can cause error if there are not enough variables on LHS as there are elements in the Tuple returned.

@@ -171,7 +171,7 @@ outer ()
 """
 # Summary:
 # ========
-# The Scope of a variable is the location where we can locate and access the variable.
+# The Scope of a variable is the location where the variable can be located and accessed.
 # A Scope defines the hierarchical order in which the Namespaces have to be searched in order to obtain the mappings of Name-to-Object (variables).
 # It defines the accessibility and the lifetime of a variable.
 

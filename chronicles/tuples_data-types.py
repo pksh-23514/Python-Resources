@@ -75,7 +75,7 @@ print (my_tuples)
 
 # Tuples Unpacking is a very powerful Tuple assignment feature that assigns the right-hand side of values into the left-hand side.
 # In another way, it is called unpacking of a Tuple of values into a Variable.
-# In packing, we put values into a new tuple while in unpacking we extract those values into a single variable.
+# In packing, the values are put into a new tuple while in unpacking, those values are extracted into a single variable.
 # Note: In unpacking of Tuple, the number of Variables on left-hand side should be equal to number of values in given Tuple.
 
 # There is a special syntax to pass optional arguments (*args) for Tuples Unpacking i.e. any number of arguments can be accomodated in place of (*args).

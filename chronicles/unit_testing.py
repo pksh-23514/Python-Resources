@@ -81,7 +81,7 @@ if (__name__ == "__main__"):
 # It also supports the test discovery that eases the process of automation of test execution across the project.
 
 # The steps to write the test cases are as follows:
-# 1. Import the 'unittest' library in your test code.
+# 1. Import the 'unittest' library in the test code.
 # 2. Define a Class that will inherit from the 'unittest.TestCase'. It shall contain all the test methods to validate the code.
 # 3. Define the individual test methods in the Class. The method name must have the "test_" prefix to be discovered by the testing framework.
 # 4. Write the Assertions inside each of the test method to compare the actual vs expected output for the function being tested.

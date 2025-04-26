@@ -50,7 +50,7 @@ print (3 < 3.0)
 # Greater than or equal to - >=
 # Less than or equal to - <=
 
-# Comparision operators works well on Containers like Set, List, Tuple or String. However, you can't compare them if the values are of different types.
+# Comparision operators works well on Containers like Set, List, Tuple or String. However, if the values are of different types, they can't be compared.
 # Eg.- (1, 2) < ('One', 'Two') => TypeError: ‘<‘ not supported between instances of ‘int’ and ‘str’
 # But if there are values of same type at the same indices, then it can be compared.
 # Eg.- (1, 'one') < (2, 'two') => True
@@ -64,7 +64,7 @@ print (3 < 3.0)
 # Comparision without the placeholders is like individual comparision and not Container comparision.
 # Eg.- 3, 4, 5 > 3, 4, 5.0 => (3, 4, True, 4, 5.0)
 #      A Tuple is created instead of the comparision between all the elements on LHS and RHS. The value 'True' is the result of (5 > 3).
-# Even if we put the placeholder on one side, the desired comparision will not take place.
+# Even if the placeholder is put on one side, the desired comparision will not take place.
 # Eg.- 3, 4, 5 > (3, 4, 5.0) => TypeError: ‘>’ not supported between instances of ‘int’ and ‘tuple’
 
 # In Python, the value and it's decimal form is equal.

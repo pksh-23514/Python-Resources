@@ -96,5 +96,5 @@ except:
 # When 'raise' keyword is used, there is no compulsion to give the 'Exception_name' along with it.
 # If there is no 'Exception_name' with the 'raise' keyword, it re-raises the last occured Error/Exception.
 
-# The 'raise' allows us to throw one Error/Exception at any time.
+# The 'raise' allows to throw one Error/Exception at any time.
 # It is very useful in case of Input Data Validation.
