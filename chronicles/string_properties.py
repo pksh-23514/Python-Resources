@@ -50,3 +50,4 @@ print ("VALUE: ", new)
 
 # String methods are in-built methods that operate on the given String.
 # All the String methods returns new values. They do not change the original String.
+# The String methods are listed here: https://www.w3schools.com/python/python_ref_string.asp
